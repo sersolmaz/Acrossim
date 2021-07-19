@@ -32,8 +32,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Installation
 
 Acrossim...
-@@include[installation.md](https://github.com/sersolmaz/Acrossim/blob/main/docs/installation.md)
-@@include[my-file.md](includes/my-file.md)
+
+npx embedme https://github.com/sersolmaz/Acrossim/blob/main/docs/installation.md
 
 ### Modules
 Acrossim...
