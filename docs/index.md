@@ -59,4 +59,10 @@ Acrossim...
 
 ### Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Developer: Serkan Solmaz (serkan.solmaz@kuleuven.be)
+Personal page: https://www.kuleuven.be/wieiswie/en/person/00127798
+Address: Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium
+
+```markdown
+This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: https://charming-etn.eu/.
+```
