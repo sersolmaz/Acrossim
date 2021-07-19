@@ -1,18 +1,13 @@
-# Cnerator
+# Acrossim
 
 
-[![License](https://img.shields.io/github/license/ComputationalReflection/cnerator)](LICENSE)
+<!-- [![License](https://img.shields.io/github/license/ComputationalReflection/cnerator)](LICENSE)
 [![Latest release](https://img.shields.io/github/v/release/computationalreflection/cnerator?include_prereleases)](https://github.com/ComputationalReflection/cnerator/releases)
 [![Documentation](https://img.shields.io/static/v1?label=docs&message=Sphinx&color=blue)](https://computationalreflection.github.io/Cnerator/)
-<img alt="Code size" src="https://img.shields.io/github/languages/code-size/computationalreflection/cnerator">
-<img alt="Repo size" src="https://img.shields.io/github/repo-size/computationalreflection/cnerator">
+// <img alt="Code size" src="https://img.shields.io/github/languages/code-size/computationalreflection/cnerator">
+// <img alt="Repo size" src="https://img.shields.io/github/repo-size/computationalreflection/cnerator"> -->
 
-
-Cnerator is a C source code generation tool. It can be used to generate large amounts of 
-[standard ANSI/ISO C source code](https://www.iso.org/standard/74528.html), ready to be compiled 
-by any standard language implementation. 
-Cnerator is highly customizable to generate all the syntactic constructs of the C language, necessary to build 
-accurate predictive models with machine learning algorithms. 
+Acrossim is a toolkit for cross-platform integration of CFD simulation data in computer graphics. It is a modular component-based toolkit to process and integrate computational fluid dynamics (CFD) simulation data into game engines. It is fundamentally structured towards light-weight, end-to-end, automated and free-to-use utilities. From mobile to augmented and virtual reality applications, CFD simulation data can be utilized in various digital environments as an alternative to the conventional engineering simulation software. 
 
 ## Functionalities
 
