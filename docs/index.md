@@ -41,24 +41,30 @@ Should you encounter any issues, do check [Conda user guide](https://conda.io/pr
 The toolkit comprises three unique modules based on CFD solvers OpenFOAM, COMSOL and Fluent. Each module is of three processors to integrate 3D data in various formats. These processors are TESSELLATE, IMAGE and TEXT. OpenFOAM module encompasses baseline processors of Acrossim. COMSOL and Fluent modules basically inherit these processors with minor inclusions by only means of data preparation and recuperation. 
 
 
-1. **OpenFOAM**
+**1. OpenFOAM**
+
 THIS MODULE
 
-2. **COMSOL**
+**2. COMSOL**
+
 THIS MODULE
 
-3. **FLUENT**
+**3. FLUENT**
+
 THIS MODULE
 
 ## Tutorials
 
-1. **OpenFOAM**
+**1. OpenFOAM**
+
 THIS MODULE
 
-2. **COMSOL**
+**2. COMSOL**
+
 THIS MODULE
 
-3. **FLUENT**
+**3. FLUENT**
+
 THIS MODULE
 
 ## Articles and contributions
