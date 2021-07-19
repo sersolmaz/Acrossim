@@ -1,10 +1,10 @@
-## Acrossim
+# Acrossim
 
-### Introduction
+## Introduction
 
 Acrossim is a modular component-based toolkit to process and integrate computational fluid dynamics (CFD) simulation data into game engines. The toolkit integrates data from most commonly applied CFD solvers in engineering science; OpenFOAM, COMSOL and Ansys Fluent. The provided toolkit helps developers to effortlessly bring any simulation content to user devices. You can use the [editor on GitHub](https://github.com/sersolmaz/Acrossim/edit/main/docs/index.md) to maintain and preview the content of the toolkit.
 
-### Methodology
+## Methodology
 
 The toolkit provides a modular component-based approach to integrate CFD simulation data in game engines within an optimized and automated data processing approach. 
 
@@ -18,7 +18,7 @@ The toolkit comprises the following components: input, modules, processors, outp
 
 Besides, each module has three main processors based on data formats; tessellate, image and text. Processors utilize state files to automatically integrate native CFD data into target output files.
 
-### Installation
+## Installation
 
 An Anaconda environment should be configurated to run Acrossim with **acrossim.yml** file. Use the terminal or an Anaconda Prompt in Anaconda Navigator for the following steps:
 
@@ -37,30 +37,30 @@ conda env list
 
 Should you encounter any issues, do check [Conda user guide](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment).
 
-### Modules
+## Modules
 
-# OpenFOAM
+1. OpenFOAM
 THIS MODULE
 
-# COMSOL
+2. COMSOL
 THIS MODULE
 
-#Ansys
+3. Ansys
 THIS MODULE
 
 
-### Tutorials
+## Tutorials
 
 
 
-### Articles and contributions
+## Articles and contributions
 
-[1] Solmaz, S. and Van Gerven, T., 2021. Automated integration of extract-based CFD results with AR/VR in engineering education for practitioners. Multimedia Tools and Applications, pp.1-23, DOI: https://doi.org/10.1007/s11042-021-10621-9.
-[2] ...
-[3] ...
+* [1] Solmaz, S. and Van Gerven, T., 2021. Automated integration of extract-based CFD results with AR/VR in engineering education for practitioners. Multimedia Tools and Applications, pp.1-23, DOI: https://doi.org/10.1007/s11042-021-10621-9.
+* [2] ...
+* [3] ...
 
 
-### Contact
+## Contact
 
 * Developer: Serkan Solmaz (serkan.solmaz@kuleuven.be)
 * Personal page: https://www.kuleuven.be/wieiswie/en/person/00127798
