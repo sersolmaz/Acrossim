@@ -37,7 +37,7 @@ conda env list
 
 Should you encounter any issues, do check [Conda user guide](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment).
 
-## Modules
+## Modules and processors
 
 1. OpenFOAM
 THIS MODULE
@@ -48,10 +48,16 @@ THIS MODULE
 3. Ansys
 THIS MODULE
 
-
 ## Tutorials
 
+1. OpenFOAM
+THIS MODULE
 
+2. COMSOL
+THIS MODULE
+
+3. Ansys
+THIS MODULE
 
 ## Articles and contributions
 
