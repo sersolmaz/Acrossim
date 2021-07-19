@@ -59,11 +59,9 @@ Acrossim...
 
 ### Contact
 
-Developer: Serkan Solmaz (serkan.solmaz@kuleuven.be)
-
-Personal page: https://www.kuleuven.be/wieiswie/en/person/00127798
-
-Address: Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium
+* Developer: Serkan Solmaz (serkan.solmaz@kuleuven.be)
+* Personal page: https://www.kuleuven.be/wieiswie/en/person/00127798
+* Address: Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium
 
 ### Acknowledgements
 
