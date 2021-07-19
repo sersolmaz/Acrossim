@@ -1,6 +1,6 @@
 # Acrossim
 
-[Image](main/acrossim.jpg)
+![](main/acrossim.jpg)
 
 ## Introduction
 
