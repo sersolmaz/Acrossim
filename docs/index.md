@@ -1,6 +1,6 @@
 # Acrossim
 
-[Image](https://github.com/sersolmaz/Acrossim/blob/main/acrossim.jpg)
+[Image](main/acrossim.jpg)
 
 ## Introduction
 
