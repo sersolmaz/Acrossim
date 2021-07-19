@@ -67,5 +67,5 @@ Address: Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-
 
 ### Acknowledgements
 
-'This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: https://charming-etn.eu/.'
+_This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: https://charming-etn.eu/._
 
