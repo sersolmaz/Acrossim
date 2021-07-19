@@ -17,12 +17,12 @@
   <body>
 
       <header>
-        
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }} <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/KU_Leuven_logo.svg/320px-KU_Leuven_logo.svg.png" alt="Girl in a jacket"> </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/KU_Leuven_logo.svg/320px-KU_Leuven_logo.svg.png" alt="Girl in a jacket">
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }} </h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <div id="banner">
+     <!-- <div id="banner">
         <span id="logo"></span>
 
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
@@ -35,7 +35,7 @@
             </ul>
           </div>
         {% endif %}
-      </div><!-- end banner -->
+      </div>  -->
 
     <div class="wrapper">
       <nav>
