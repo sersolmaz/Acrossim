@@ -1,6 +1,0 @@
-{
-  "number_of_functions": {
-    "total": 5000,
-    "condition": "lambda f: True"
-  }
-}
