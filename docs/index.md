@@ -39,24 +39,24 @@ Should you encounter any issues, do check [Conda user guide](https://conda.io/pr
 
 ## Modules and processors
 
-1. OpenFOAM
+**OpenFOAM**
 THIS MODULE
 
-2. COMSOL
+**COMSOL**
 THIS MODULE
 
-3. Ansys
+**FLUENT**
 THIS MODULE
 
 ## Tutorials
 
-1. OpenFOAM
+**OpenFOAM**
 THIS MODULE
 
-2. COMSOL
+**COMSOL**
 THIS MODULE
 
-3. Ansys
+**FLUENT**
 THIS MODULE
 
 ## Articles and contributions
