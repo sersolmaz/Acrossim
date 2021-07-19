@@ -50,15 +50,15 @@ The toolkit comprises three unique modules based on CFD solvers OpenFOAM, COMSOL
 
 **1. OpenFOAM**
 
-THIS MODULE
+This module includes three processors as a baseline to other modules.  Tessellate, image and text data are directly processed from native CFD data produced by OpenFOAM. It merely requires a reference ParaView state file to perform the data processing.
 
 **2. COMSOL**
 
-THIS MODULE
+Data from COMSOL is exported to VTU format in order to import CFD data with ParaView and implement it in Acrossim. COMSOL module utilizes the same processors as OpenFOAM within one exception in the tessellate one. Having been previously mentioned, VTU encodes only simulation data rather than geometric features. Hence, the format does exclude all geometric features while extracting data from COMSOL, for instance, extrusion of streamline tubes from splines and curves. To cope with this complication, tessellate processor in COMSOL module is extended using a bevel modifier in Blender to reconstruct 3D data from splines and curves. This extension loops with an “if conditioner” in the tessellate processor. It merely applies to streamlines, glyphs, and similar visual data.
 
 **3. FLUENT**
 
-THIS MODULE
+Fluent saves CFD data with a single CAS file where simulation settings are stored, and also DAT files for each written timestep. ParaView cannot inherit the same system to manage transient Fluent data. Each DAT file should be accompanied by a CAS file to be properly imported in ParaView. In order to automatically handle this, we wrote “fluenttoparaview.py” script through which CAS files are created and subsequently named for each DAT file. It automatically detects and converts Fluent native CFD data into formats that can be read by ParaView. No input timesteps are necessity in processors. All native data collected under the toolkit directory are directly processed.
 
 ## Tutorials
 
@@ -79,7 +79,6 @@ THIS MODULE
 * [1] Solmaz, S. and Van Gerven, T., 2021. Automated integration of extract-based CFD results with AR/VR in engineering education for practitioners. Multimedia Tools and Applications, pp.1-23, DOI: https://doi.org/10.1007/s11042-021-10621-9.
 * [2] ...
 * [3] ...
-
 
 ## Contact
 
