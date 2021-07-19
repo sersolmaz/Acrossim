@@ -31,7 +31,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Installation
 
-An Anaconda environment should be compiled to run Acrossim with **acrossim.yml**.
+An Anaconda environment should be compiled to run Acrossim with **acrossim.yml** file. Use the terminal or an Anaconda Prompt in Anaconda Navigator for the following steps:
+
+1. Creat an environment from the acrossim.yml file 
+```markdown
+conda env create -f acrossim.yml
+```
+
+
 
 ### Modules
 Acrossim...
