@@ -1,6 +1,5 @@
 ```markdown
-#Acrossim 
-on [GitHub](https://github.com/sersolmaz/Acrossim/)
+#Acrossim on [GitHub](https://github.com/sersolmaz/Acrossim/)
 ```
 
 ## Introduction
