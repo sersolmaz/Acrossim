@@ -104,3 +104,5 @@ THIS MODULE
 
 _This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: https://charming-etn.eu/._
 
+[Image](https://charming-etn.eu/wp-content/uploads/2018/12/flag_yellow_low.jpg)
+
