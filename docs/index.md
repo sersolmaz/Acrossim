@@ -42,7 +42,7 @@ In this study, we develop a set of codes, called A toolkit for cross-platform in
 
 An Anaconda environment should be configurated to run Acrossim with **acrossim.yml** file. Use the terminal or an Anaconda Prompt in Anaconda Navigator for the following steps:
 
-1. Creat an environment from the **acrossim.yml** file. Make sure that the terminal and **acrossim.yml** are in the same working directory.
+1. Creat an environment from the **acrossim.yml** file. Make sure that the cmd.exe terminal and **acrossim.yml** are in the same working directory.
 ```markdown
 conda env create -f acrossim.yml
 ```
