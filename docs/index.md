@@ -96,7 +96,7 @@ This section is being kept updated to give guidance for frequently encountered p
 
 **ParaView state files**
 
-ParaView state files read CFD data from user-defined directories. If the directory of CFD data is subject to changes, "Reader" in the state files should be manually updated as for the following examples. Any change in the directory should be processed in the state file.
+ParaView state files read CFD data from user-defined directories. If the directory of CFD data is changed, the line "Reader" in the state files should be manually updated as for the following examples. Any change in the directory should be processed in the state file.
 
 An example for OpenFOAM:
 ```markdown
