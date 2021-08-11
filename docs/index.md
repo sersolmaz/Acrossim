@@ -1,14 +1,14 @@
 <!-- #Acrossim -->
 
 ```markdown
-This page is under construction. Last update: 11.08.2021
+This webpage is under construction. Last update: 11.08.2021
 ```
 
 ## Introduction
 
-Acrossim is a modular component-based toolkit to process and integrate computational fluid dynamics (CFD) simulation data into game engines. The toolkit integrates data from most commonly applied CFD solvers in engineering science; OpenFOAM, COMSOL and Ansys Fluent. The provided toolkit helps developers to effortlessly bring any simulation content to user devices. The toolkit is freely available on [**GitHub**](https://github.com/sersolmaz/Acrossim).
+Acrossim is a modular component-based toolkit to process and integrate computational fluid dynamics (CFD) simulation data into game engines. The toolkit integrates data from the most commonly applied CFD solvers in engineering science; OpenFOAM, COMSOL and Ansys Fluent. It utilizes an extract-based data processing approach to integrate CFD data into cross-platform environments. The provided toolkit helps developers to effortlessly bring any simulation content into end-user devices. The toolkit is freely available on [**GitHub**](https://github.com/sersolmaz/Acrossim).
 
-This section details the implementation of Acrossim. An Anaconda environment with ParaView v5.8 and Blender v2.79 packages should be created to run processors. The environment can be effortlessly compiled by running “Acrossim.yml” file in Anaconda. 
+This webpage is the documentation for developers to implement the toolkit in their workflows. The toolkit mainly runs through an Anaconda environment with ParaView v5.8 and Blender v2.79 packages. The environment can be effortlessly compiled by running the “Acrossim.yml” file in Anaconda. Details about installation and implementation are given in the following sections.
 
 ## Methodology
 
