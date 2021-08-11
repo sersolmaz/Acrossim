@@ -92,11 +92,28 @@ Several free and paid packages can be acquired from Unity asset store: https://a
 
 ## Troubleshooting
 
-OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_development_one-way/6_SOFTWARE_Final/A_software_final/2_acrossim_toolkit_update2_11082021/module_OpenFOAM/pitzDaily_LES/pitzDaily_LES.foam') and directories of CFD data files. Any cahnge in directory should be processed in the state file.
-same for PVD readerin comsol PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
+This section is being kept updated to give guidance for frequently encountered problems.
+
+**ParaView state files**
+
+
+An example for OpenFOAM:
+```markdown
+OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_development_one-way/6_SOFTWARE_Final/A_software_final/2_acrossim_toolkit_update2_11082021/module_OpenFOAM/pitzDaily_LES/pitzDaily_LES.foam') 
+```
+An example for COMSOL:
+```markdown
+PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
+```
+
+nd directories of CFD data files. Any cahnge in directory should be processed in the state file.
+same for PVD readerin comsol 
+
 enter 1 for single timestep or steayd-state processings
 
-In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”. 
+**OpenFOAM with ParaView on Microsoft Windows**
+
+In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”.
 
 ## Articles and contributions
 
