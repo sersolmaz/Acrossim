@@ -96,7 +96,7 @@ This section is being kept updated to give guidance for frequently encountered p
 
 **ParaView state files**
 
-ParaView state files import CFFD data from user-defined directories 
+ParaView state files read CFD data from user-defined directories. If the directory of CFD data is subject to changes, "Reader" in the state files should be manually updated as for the following examples. Any change in the directory should be processed in the state file.
 
 An example for OpenFOAM:
 ```markdown
@@ -107,10 +107,7 @@ An example for COMSOL:
 PVDReader(FileName='D:/simulations/acrossim/module_COMSOL/velocity_isothermal/merged.pvd')
 ```
 
-nd directories of CFD data files. Any cahnge in directory should be processed in the state file.
-same for PVD readerin comsol 
-
-enter 1 for single timestep or steayd-state processings
+Besides, developers can create a new state file reading the CFD data from the new directory.
 
 **OpenFOAM with ParaView on Microsoft Windows**
 
