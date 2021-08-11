@@ -40,13 +40,14 @@ conda env list
 After the installation completed, an Acrossim application should be listed under environments in Anaconda. Should you encounter any issues, do check [Conda user guide](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment).
 
 ## Modules and processors
-The toolkit comprises three unique modules based on CFD solvers OpenFOAM, COMSOL and Fluent. Each module is of three processors to integrate 3D data in various formats. These processors are TESSELLATE, IMAGE and TEXT. OpenFOAM module encompasses baseline processors of Acrossim. COMSOL and Fluent modules basically inherit these processors with minor inclusions by only means of data preparation and recuperation. 
 
-Acrossim is a highly customizable toolkit that can serve for any user-defined demands. Either ParaView state file or relevant processor can be modified to obtain specific processing workflows. For instance, in order to change color legend without creating a new state file, the user can go in the existing state file and manipulate relevant object by changing color codes. This requires an understanding of the ParaView Python API. Trace option in ParaView dynamically illustrates each action taken by user with GUI in ParaView. Hence users can intuitively decode ParaView API by keeping track of traces. Similarly, available documentation of ParaView API can aid finding the target object to process user-defined needs. This may enable remote data processing through connected and coupled system.
+The toolkit comprises three unique modules based on CFD solvers OpenFOAM, COMSOL, and Fluent. Each module is of three processors to integrate CFD data in various formats. These processors are TESSELLATE, IMAGE, and TEXT. OpenFOAM module encompasses baseline processors of Acrossim. COMSOL and Fluent modules basically inherit these processors with minor inclusions by only means of data preparation and recuperation. 
+
+Acrossim is a highly customizable toolkit that can serve any user-defined demands. Either ParaView state file or relevant processor can be modified to obtain specific processing workflows. For instance, in order to change color legend without creating a new state file, the user can go into the existing state file and manipulate relevant objects by changing color codes. This requires an understanding of the ParaView Python API. The trace option in ParaView dynamically illustrates each action taken by the user with GUI in ParaView. Hence users can intuitively decode ParaView API by keeping track of traces. Similarly, available documentation of ParaView API can aid in finding the target object to process user-defined needs. This may enable remote data processing through connected and coupled systems.
 
 **1. OpenFOAM**
 
-This module includes three processors as a baseline to other modules.  Tessellate, image and text data are directly processed from native CFD data produced by OpenFOAM. It merely requires a reference ParaView state file to perform the data processing.
+This module includes three processors as a baseline to other modules.  Tessellated, image and text data are directly processed from native CFD data produced by OpenFOAM. It merely requires a reference ParaView state file to perform the data processing.
 
 **2. COMSOL**
 
@@ -54,13 +55,38 @@ Data from COMSOL is exported to VTU format in order to import CFD data with Para
 
 **3. FLUENT**
 
-Fluent saves CFD data with a single CAS file where simulation settings are stored, and also DAT files for each written timestep. ParaView cannot inherit the same system to manage transient Fluent data. Each DAT file should be accompanied by a CAS file to be properly imported in ParaView. In order to automatically handle this, we wrote “fluenttoparaview.py” script through which CAS files are created and subsequently named for each DAT file. It automatically detects and converts Fluent native CFD data into formats that can be read by ParaView. No input timesteps are necessity in processors. All native data collected under the toolkit directory are directly processed.
+Fluent saves CFD data with a single CAS file where simulation settings are stored, and also DAT files for each written timestep. ParaView cannot inherit the same system to manage transient Fluent data. Each DAT file should be accompanied by a CAS file to be properly imported in ParaView. In order to automatically handle this, we wrote “fluenttoparaview.py” script through which CAS files are created and subsequently named for each DAT file. It automatically detects and converts Fluent native CFD data into formats that can be read by ParaView. No input timesteps are necessary for processors. All native data collected under the toolkit directory are directly processed.
+
+## Tutorials
+
+This section is under construction.
 
 ## Outsourcing
 
-Importance of verified and validated CFD studies to provide accurate content.
+**Available CFD data** 
 
-TUorials, applications, CFD benchmark studies, etc.
+CFD simulations require a competent analyst to pre-process, calculate and post-process simulation data in a timely cost-effective way. Also, developing verified and validated CFD workflows are vital to obtaining accurate results. Various online resources are freely available for developers to ease the workflow creating verified and validated simulations workflows. Resources that can be integrated into Acrossim are listed as follows:
+
+OpenFOAM:
+* https://wiki.openfoam.com/Tutorials
+* https://wiki.openfoam.com/Collection_by_authors
+* https://github.com/OpenFOAM/OpenFOAM-6
+* https://www.openfoam.com/documentation/tutorial-guide
+* https://www.cfd.at/tutorials
+
+COMSOL:
+* https://www.comsol.com/models
+* https://www.comsol.com/learning-center
+
+Databases for CFD benchmarks:
+* Ercoftac: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=flow_types
+* Ercoftac: https://www.ercoftac.org/publications/ercoftac_best_practice_guidelines/
+* Hamburg: https://mi-pub.cen.uni-hamburg.de/index.php?id=628
+* NASA V&V: https://www.grc.nasa.gov/www/wind/valid/tutorial/overview.html
+* NASA archive: https://www.grc.nasa.gov/www/wind/valid/archive.html
+* Gallery of fluid motion: https://gfm.aps.org/
+
+**Unity game engine**
 
 Unity packages to data parsing and design of virtual environment with guides for developers.
 
@@ -70,12 +96,7 @@ OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_devel
 same for PVD readerin comsol PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
 enter 1 for single timestep or steayd-state processings
 
-
 In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”. 
-
-## Tutorials
-
-This section is under construction.
 
 ## Articles and contributions
 
