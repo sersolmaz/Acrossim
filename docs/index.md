@@ -86,6 +86,12 @@ TUorials, applications, CFD benchmark studies, etc.
 
 Unity packages to data parsing and design of virtual environment with guides for developers.
 
+## Troubleshooting
+
+OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_development_one-way/6_SOFTWARE_Final/A_software_final/2_acrossim_toolkit_update2_11082021/module_OpenFOAM/pitzDaily_LES/pitzDaily_LES.foam') and directories of CFD data files. Any cahnge in directory should be processed in the state file.
+same for PVD readerin comsol PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
+enter 1 for single timestep or steayd-state processings
+
 ## Tutorials
 
 This section is under construction.
