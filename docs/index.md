@@ -64,7 +64,7 @@ After the installation completed, an Acrossim application should be listed under
 ## Modules and processors
 The toolkit comprises three unique modules based on CFD solvers OpenFOAM, COMSOL and Fluent. Each module is of three processors to integrate 3D data in various formats. These processors are TESSELLATE, IMAGE and TEXT. OpenFOAM module encompasses baseline processors of Acrossim. COMSOL and Fluent modules basically inherit these processors with minor inclusions by only means of data preparation and recuperation. 
 
-Acrossim is a highly customizable toolkit that can serve for any user-defined demands. Either ParaView state file or relevant processor can be modified to obtain specific processing workflows. For instance, in order to change color legend without creating a new state file, the user can go in the existing state file and manipulate relevant object by changing color codes. This requires an understanding of the ParaView Python API. Trace option in ParaView dynamically illustrates each action taken by user with GUI in ParaView. Hence users can intuitively decode ParaView API by keeping track of traces. Similarly, available documentation of ParaView API can aid finding the target object to process user-defined needs. This may enable remote data processing through connected and coupled system. 
+Acrossim is a highly customizable toolkit that can serve for any user-defined demands. Either ParaView state file or relevant processor can be modified to obtain specific processing workflows. For instance, in order to change color legend without creating a new state file, the user can go in the existing state file and manipulate relevant object by changing color codes. This requires an understanding of the ParaView Python API. Trace option in ParaView dynamically illustrates each action taken by user with GUI in ParaView. Hence users can intuitively decode ParaView API by keeping track of traces. Similarly, available documentation of ParaView API can aid finding the target object to process user-defined needs. This may enable remote data processing through connected and coupled system.
 
 **1. OpenFOAM**
 
@@ -77,6 +77,12 @@ Data from COMSOL is exported to VTU format in order to import CFD data with Para
 **3. FLUENT**
 
 Fluent saves CFD data with a single CAS file where simulation settings are stored, and also DAT files for each written timestep. ParaView cannot inherit the same system to manage transient Fluent data. Each DAT file should be accompanied by a CAS file to be properly imported in ParaView. In order to automatically handle this, we wrote “fluenttoparaview.py” script through which CAS files are created and subsequently named for each DAT file. It automatically detects and converts Fluent native CFD data into formats that can be read by ParaView. No input timesteps are necessity in processors. All native data collected under the toolkit directory are directly processed.
+
+## Outsourcing
+
+Importance of verified and validated CFD studies to provide accurate content.
+
+TUorials, applications, CFD benchmark studies, etc.
 
 ## Tutorials
 
