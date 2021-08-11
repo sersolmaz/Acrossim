@@ -106,7 +106,7 @@ THIS MODULE
 
 ### Acknowledgements
 
-_This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: [https://charming-etn.eu/](https://charming-etn.eu/)
+This project has received funding from the European Union’s EU Framework Programme for Research and Innovation Horizon 2020 under Grant Agreement 812716. This publication reflects only the author’s view exempting the community from any liability. Project website: [https://charming-etn.eu/](https://charming-etn.eu/)
 
 ![alt text](https://charming-etn.eu/wp-content/uploads/2018/12/flag_yellow_low.jpg)
 ![alt text](https://user-images.githubusercontent.com/34717545/126303026-b204a42a-ca52-4cec-ab44-b78e1c32909a.png)
