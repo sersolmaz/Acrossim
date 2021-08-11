@@ -4,4 +4,6 @@ Acrossim is a modular component-based toolkit to process and integrate computati
 
 Details are availabe at developer documentation https://sersolmaz.github.io/Acrossim/
 
-
+## Contact
+Serkan Solmaz (https://www.kuleuven.be/wieiswie/en/person/00127798)
+* Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium
