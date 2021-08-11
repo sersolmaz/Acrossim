@@ -92,6 +92,9 @@ OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_devel
 same for PVD readerin comsol PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
 enter 1 for single timestep or steayd-state processings
 
+
+In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”. 
+
 ## Tutorials
 
 This section is under construction.
