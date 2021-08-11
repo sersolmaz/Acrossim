@@ -12,39 +12,17 @@ This webpage is the documentation for developers to implement the toolkit in the
 
 ## Methodology
 
-The toolkit provides a modular component-based approach to integrate CFD simulation data in game engines within an optimized and automated data processing approach. 
+Acrossim helps developers to rapidly integrate their CFD simulation results in cross-platform environments in a time cost effective way without concerning over powerful end-user hardware, hours of data preparation, and more significantly, performance and data quality. It is fundamentally structured towards lightweight, end-to-end, automated, and free-to-use utilities.
 
-Acrossim proposes optimal and automated data processing pipelines considering three major data formats; tessellate, image and text. Modules highly customizable mediums to edit and implement and user specific demands.
-Data produced by Acrossim can be directly utilized in Unity and Unreal game engines, through which miscellaneous cross-platform application such as mobile games and immersive VR experiences can be readily built.
-Acrossim integrated CFD data through data processing pipelines in which data is conversed to suitable formats, processed based on validated workflows, specifically sorted to maintain easy access, summarized by excluding the unnecessary details, aggregated to bundle different data, assessed and reported, classified and stored.
+The toolkit provides a modular component-based approach to integrate CFD simulation data into game engines within an optimized and automated data processing approach. It utilizes an extract-based data processing approach to diminish the data size of CFD post-processing. This approach is incorporated in the toolkit from a recently published research [1, 2]. Notably, Acrossim integrates CFD data through extract-based data processing pipelines in which data is converted to suitable formats, processed based on validated workflows, specifically sorted to maintain easy access, summarized by excluding the unnecessary details, aggregated to bundle different data, assessed and reported, classified and stored. It is developed with Python in an Anaconda environment and compiled with ParaView and Blender libraries. Standard Python libraries are also utilized to embed file handling operations to control input and output (I/O) functionalities. 
 
-In this study, we develop a toolkit, called Acrossim, to realize the data processing pipeline recently proposed in the literature [1].
+Acrossim provides data processing pipelines considering three major data formats; tessellated (visual representations & volumetric data), image (graphs & charts) and text (numerical & text). Data processing pipelines are highly customizable mediums to edit and implement and user-specific demands. Data produced by Acrossim can be directly utilized in Unity and Unreal game engines, through which miscellaneous cross-platform applications such as mobile games and immersive VR experiences can be readily built.
 
-The processed CFD data can be usually categorized as follows: visual representations  as volumetric data, graphs & charts, and analytical & text data. An extract-based data processing approach can diminish data size of CFD post-processing. Integration of extract-based CFD data with cross-platform development tools has been studied by scholars based on two fundamental approaches.
-
-On one hand, native CFD data is processed via post-processing software and subsequently exported to text files. Following, the intended CFD data is reproduced in cross-platform environments using dedicated post-processing algorithms implemented by developers [5]–[7]. This approach came forward with technical drawbacks in the design and operation of user applications. First of all, CFD post-processing algorithms should be implemented in the game engines to reproduce CFD data from text files. 
-
-On the other hand, native CFD data is processed via post-processing software and exported to suitable file formats such as 3D, image and text. The exported data are then exchanged to the formats that are readable by game engines. This methodology points out a lightweight approach to employ any end user device. 
-
-Recently, a data processing methodology was proposed as a solution to the above-mentioned problems targeting lightweight, interoperable, end-to-end and free-to-use utilities [15]. The study highlighted an inclusive guidance on the integration of CFD data with game engines through a modular component-oriented data processing pipeline. A thorough investigation was carried out to examine optimized and automated data processing options between CFD solvers and game engines. A qualitative assessment was performed to scrutinize data format, size, processing time, quality, automation and management. The study introduced an extract-based approach to adapt big CFD data into cross-platform user applications through manageable data bundles.
-
-The toolkit processes CFD data from multiple CFD software to integrate simulation results with various formats into game engines. A modular component-based software structure is acquired blending already available resources. It is developed with Python in an Anaconda environment and compiled with ParaView and Blender libraries. Standard Python libraries are also utilized to embed file handling operations to control input and output (I/O) functionalities. 
-
-The toolkit comprises the following components: input, modules, processors, output and storage. A detailed description of its schematic architecture is illustrated in Figure 1. It is noteworthy that CFD solvers give input files in various formats, thereby requiring solver-specific data handling features. To tackle these hindrances, the toolkit proposes distinguished modules for each CFD software within supplementary additions in the processors. Each module can serve as a standalone provider for a specific CFD solver. Native CFD datasets and ParaView states are two input files to appropriately run the toolkit. The prior can be in any format as long as it is imported in ParaView. The latter is only one time and manually created to provide a baseline of CFD post-processing data. Besides, each module has three main processors based on data formats; tessellate, image and text. Processors utilize state files to automatically integrate native CFD data into target output files.
-
-It is noteworthy that CFD solvers give input files in various formats, thereby requiring solver-specific data handling features. To tackle these hindrances, the toolkit proposes distinguished modules for each CFD software within supplementary additions in the data processing pipeline. These are presented in the section Software Functionalities.
-
-Besides, each module has three main processors based on data formats; tessellate, image and text. Processors utilize state files to automatically integrate native CFD data into target output files.
-
-Data produced by Acrossim can be directly utilized in Unity and Unreal game engines, through which miscellaneous cross-platform application such as mobile games and AR/VR experiences can be readily built. 
-
-CFD simulations are generally performed with either remote or cloud-based solutions due to the heavy calculations. Post-processing of simulation data can also result in computationally intensive workflows that can be demanding for end user devices. Acrossim serves as a mean for developers to integrate lightweight CFD data into games engines. Above all, a fully automated routine of Acrossim may facilitate a content delivery network by remotely linking CFD solver with end user applications. This connection can open gates for two-way coupled interactive systems with content delivery networks (CDN), thereby remotely streaming any CFD content to end user devices and digital twins.
-
-In this study, we develop a set of codes, called A toolkit for cross-platform integration of CFD simulation data in computer graphics (Acrossim), to realize the data processing pipeline recently proposed in the literature [14]. This will help developers to rapidly integrate their CFD simulation results in cross-platform environments in a time cost effective way without concerning over powerful end user hardware, hours of data preparation, and more significantly performance and data quality.
+Moreover, CFD simulations are generally performed with either remote or cloud-based solutions due to the heavy calculations. Post-processing of simulation data can also result in computationally intensive workflows that can be demanding for end-user devices. Acrossim serves as a means for developers to integrate lightweight CFD data into games engines. Above all, a fully automated routine of Acrossim may facilitate a content delivery network by remotely linking CFD solver with end-user applications. This connection can open gates for two-way coupled interactive systems with content delivery networks (CDN), thereby remotely streaming any CFD content to end-user devices and digital twins.
 
 ## Installation
 
-An Anaconda environment should be configurated to run Acrossim with **acrossim.yml** file. Use the terminal or an Anaconda Prompt in Anaconda Navigator for the following steps:
+An Anaconda environment should be configurated with **acrossim.yml** file to run Acrossim with required packages. Use the terminal or an Anaconda Prompt in Anaconda Navigator for the following steps:
 
 1. Creat an environment from the **acrossim.yml** file. Make sure that the cmd.exe terminal and **acrossim.yml** are in the same working directory.
 ```markdown
@@ -102,7 +80,7 @@ This section is under construction.
 ## Articles and contributions
 
 * [1] Solmaz, S. and Van Gerven, T., 2021. Automated integration of extract-based CFD results with AR/VR in engineering education for practitioners. Multimedia Tools and Applications, pp.1-23, DOI: https://doi.org/10.1007/s11042-021-10621-9.
-* [2] ...
+* [2] Solmaz, S. and Van Gerven, T., 2021. In preparation.
 * [3] ...
 
 ## Contact
