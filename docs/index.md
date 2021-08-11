@@ -32,7 +32,7 @@ conda env create -f acrossim.yml
 ```markdown
 conda activate acrossim
 ```
-3. Verify the installed environment
+3. Verify the installed environment.
 ```markdown
 conda env list
 ```
