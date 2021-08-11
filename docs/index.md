@@ -96,14 +96,15 @@ This section is being kept updated to give guidance for frequently encountered p
 
 **ParaView state files**
 
+ParaView state files import CFFD data from user-defined directories 
 
 An example for OpenFOAM:
 ```markdown
-OpenFOAMReader(FileName='D:/Engineering/PhD/System_Architecture/5_software_development_one-way/6_SOFTWARE_Final/A_software_final/2_acrossim_toolkit_update2_11082021/module_OpenFOAM/pitzDaily_LES/pitzDaily_LES.foam') 
+OpenFOAMReader(FileName='D:/simulations/acrossim/module_OpenFOAM/pitzDaily_LES/pitzDaily_LES.foam') 
 ```
 An example for COMSOL:
 ```markdown
-PVDReader(FileName='D:/Engineering/PhD/Publications/4_MANUSCRIPT_software/5_software_final_in_pub/trial_final/module_COMSOL/velocity_isothermal/merged.pvd')
+PVDReader(FileName='D:/simulations/acrossim/module_COMSOL/velocity_isothermal/merged.pvd')
 ```
 
 nd directories of CFD data files. Any cahnge in directory should be processed in the state file.
