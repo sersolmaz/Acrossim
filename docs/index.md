@@ -88,7 +88,7 @@ Databases for CFD benchmarks:
 
 **Unity game engine**
 
-Unity packages to data parsing and design of virtual environment with guides for developers.
+Several free and paid packages can be acquired from Unity asset store: https://assetstore.unity.com/
 
 ## Troubleshooting
 
