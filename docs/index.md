@@ -80,17 +80,7 @@ Fluent saves CFD data with a single CAS file where simulation settings are store
 
 ## Tutorials
 
-**1. OpenFOAM**
-
-THIS MODULE
-
-**2. COMSOL**
-
-THIS MODULE
-
-**3. FLUENT**
-
-THIS MODULE
+This section is under construction.
 
 ## Articles and contributions
 
