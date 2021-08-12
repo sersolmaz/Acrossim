@@ -1,4 +1,6 @@
-<img src="https://github.com/sersolmaz/Acrossim/blob/main/image_logo.png" width="300">
+<p align="center">
+  <img src="https://github.com/sersolmaz/Acrossim/blob/main/image_logo.png" width="300">
+</p>
 
 # Acrossim: A toolkit for cross-platform integration of CFD simulation data in computer graphics
 
