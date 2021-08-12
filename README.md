@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-# Acrossim
+Acrossim
 </p>
 
 # A toolkit for cross-platform integration of CFD simulation data in computer graphics
