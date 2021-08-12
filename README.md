@@ -1,4 +1,4 @@
-![alt text](https://github.com/sersolmaz/Acrossim/blob/main/image_logo.png){:height="50%" width="50%"}
+<img src="https://github.com/sersolmaz/Acrossim/blob/main/image_logo.png" width="100">
 
 # Acrossim: A toolkit for cross-platform integration of CFD simulation data in computer graphics
 
