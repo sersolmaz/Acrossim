@@ -14,7 +14,7 @@ This webpage is the documentation for developers to implement the toolkit in the
 
 Acrossim helps developers to rapidly integrate their CFD simulation results in cross-platform environments in a time cost effective way without concerning over powerful end-user hardware, hours of data preparation, and more significantly, performance and data quality. It is fundamentally structured towards lightweight, end-to-end, automated, and free-to-use utilities.
 
-The toolkit provides a modular component-based approach to integrate CFD simulation data into game engines within an optimized and automated data processing approach. It utilizes an extract-based data processing approach to diminish the data size of CFD post-processing. This approach is incorporated in the toolkit from a recently published research [1, 2]. Notably, Acrossim integrates CFD data through extract-based data processing pipelines in which data is converted to suitable formats, processed based on validated workflows, specifically sorted to maintain easy access, summarized by excluding the unnecessary details, aggregated to bundle different data, assessed and reported, classified and stored. It is developed with Python in an Anaconda environment and compiled with ParaView and Blender libraries. Standard Python libraries are also utilized to embed file handling operations to control input and output (I/O) functionalities. 
+The toolkit provides a modular component-based approach to integrate CFD simulation data into game engines within an optimized and automated data processing approach. It utilizes an extract-based data processing approach to diminish the data size of CFD post-processing. This approach is incorporated in the toolkit from a recently published research [1]. Notably, Acrossim integrates CFD data through extract-based data processing pipelines in which data is converted to suitable formats, processed based on validated workflows, specifically sorted to maintain easy access, summarized by excluding the unnecessary details, aggregated to bundle different data, assessed, reported, classified and stored. It is developed with Python in an Anaconda environment and compiled with ParaView and Blender libraries. Standard Python libraries are also utilized to embed file handling operations to control input and output (I/O) functionalities. 
 
 Acrossim provides data processing pipelines considering three major data formats; tessellated (visual representations & volumetric data), image (graphs & charts) and text (numerical & text). Data processing pipelines are highly customizable mediums to edit and implement and user-specific demands. Data produced by Acrossim can be directly utilized in Unity and Unreal game engines, through which miscellaneous cross-platform applications such as mobile games and immersive VR experiences can be readily built.
 
@@ -116,7 +116,7 @@ In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “
 ## Articles and contributions
 
 * [1] Solmaz, S. and Van Gerven, T., 2021. Automated integration of extract-based CFD results with AR/VR in engineering education for practitioners. Multimedia Tools and Applications, pp.1-23, DOI: https://doi.org/10.1007/s11042-021-10621-9.
-* [2] Solmaz, S. and Van Gerven, T., 2021. In preparation.
+* [2] ...
 * [3] ...
 
 ## Contact
