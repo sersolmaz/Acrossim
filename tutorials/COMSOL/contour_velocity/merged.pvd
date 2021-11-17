@@ -1,0 +1,8 @@
+<VTKFile type="Collection" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <Collection>
+    <DataSet timestep="0" part="0" file="t0.vtu"/>
+    <DataSet timestep="0.10" part="0" file="t1.vtu"/>
+    <DataSet timestep="0.15" part="0" file="t2.vtu"/>
+
+  </Collection>
+</VTKFile>
