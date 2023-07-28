@@ -59,7 +59,9 @@ Fluent saves CFD data with a single CAS file where simulation settings are store
 
 ## Tutorials
 
-A guiding tutorial is available at [YouTube - Acrossim tutorial]([https://github.com/sersolmaz/Acrossim](https://www.youtube.com/watch?v=WA_9-2JYKdM)).. It demonstrates how to set up an Anaconda environment with relevant packages, as well as to develop a user app with processed CFD data in Unity. 
+A guiding tutorial is available at [YouTube - Acrossim tutorial]([https://github.com/sersolmaz/Acrossim](https://www.youtube.com/watch?v=WA_9-2JYKdM)). It demonstrates how to set up an Anaconda environment with relevant packages, as well as to develop a user app with processed CFD data in Unity. 
+
+A technical report - explaining the core functions of the toolkit - is available at [Technical Report - Accrossim](https://github.com/sersolmaz/Acrossim/blob/main/Technical_report_Acrossim.docx.pdf). The report can help you understand how to further build Acrossim on top of specific use cases while addressing other features and functionalities not mentioned on this page.
 
 ## Outsourcing
 
@@ -112,6 +114,10 @@ Besides, developers can create a new state file reading the CFD data from the ne
 **OpenFOAM with ParaView on Microsoft Windows**
 
 In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”.
+
+**Other versions of ParaView and Blender in Anaconda**
+
+If other versions of ParaView and Blender are utilized in the Anaconda environment, some parts of modules should be updated based on changes in ParaView and Blender APIs. Please follow the given error and go line-by-line to identify what to change and rectify such as class names, objects, etc.
 
 ## Articles and contributions
 
