@@ -16,4 +16,4 @@ The software is built on top of previously released code snippets from CFD_AR_VR
 Serkan Solmaz (https://www.kuleuven.be/wieiswie/en/person/00127798)
 * Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium
 
-As of Jan 2023, I left the university after completing my research. You can always reach me out via my LinkedIn account: https://www.linkedin.com/in/serkan-solmaz/
+PS. As of Jan 2023, I left the university after completing my research. You can always reach me out via my LinkedIn account: https://www.linkedin.com/in/serkan-solmaz/
