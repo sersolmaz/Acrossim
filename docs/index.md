@@ -90,13 +90,15 @@ Databases for CFD benchmarks:
 
 **Unity game engine**
 
-Several free and paid packages can be acquired from Unity asset store: https://assetstore.unity.com/
+* Several free and paid packages can be acquired from the Unity asset store: https://assetstore.unity.com/
+* Check the Unity asset store for text data parsing and localization.
+* Check the Unity asset store for interactive graphs and charts.
 
 ## Troubleshooting
 
 This section is being kept updated to give guidance for frequently encountered problems.
 
-** --->ParaView state files**
+**ParaView state files**
 
 ParaView state files read CFD data from user-defined directories. If the directory of CFD data is changed, the line "Reader" in the state files should be manually updated as for the following examples. Any change in the directory should be processed in the state file.
 
@@ -111,23 +113,23 @@ PVDReader(FileName='D:/simulations/acrossim/module_COMSOL/velocity_isothermal/me
 
 Besides, developers can create a new state file reading the CFD data from the new directory.
 
-** --->OpenFOAM with ParaView on Microsoft Windows**
+**OpenFOAM with ParaView on Microsoft Windows**
 
 In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “.foam” file should be created and stored under the simulation file to import simulation data, for example, “pitzDaily_LES.foam”.
 
-** --->Other versions of ParaView and Blender in Anaconda**
+**Other versions of ParaView and Blender in Anaconda**
 
 If other versions of ParaView and Blender are utilized in the Anaconda environment, some parts of modules should be updated based on changes in ParaView and Blender APIs. Please follow the given error and go line-by-line to identify what to change and rectify such as class names, objects, etc.
 
-** --->Processing multiple cutplanes in ParaView**
+**Processing multiple cutplanes in ParaView**
 
 Even though only one cutplane is processed in the tutorial, the toolkit is capable of processing multiple cutplanes simultaneously from a native CFD file in ParaView. No changes in the code are required.
 
-** --->Adding other data formats such as USD**
+**Adding other data formats such as USD**
 
 You can include other data formats to import and export data for specific use cases such as USD which is becoming a popular data format in computer graphics. To do this, first check data import and export pipelines available in ParaView and Blender. Then you should replace the data format with the one available in the TESSSELATE processors, for example changing FBX to USD: "exportBlender = 'fbx'" >> "exportBlender = 'usd'".
 
-** --->Using Blender as an intermediate processor**
+**Using Blender as an intermediate processor**
 
 COMSOL module already uses Blender to construct geometries, for instance, solidifying or changing the thickness of streamlines. The same operation with some minor additions can serve an intermediate data processor to process geometry-related features for some reason - such as the construction of iso-surfaces.
 
