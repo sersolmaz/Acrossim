@@ -1,7 +1,7 @@
 <!-- #Acrossim -->
 
 ```markdown
-Last update: 28.07.2023
+Lastest update: 28.07.2023
 ```
 
 ## Introduction
@@ -59,7 +59,7 @@ Fluent saves CFD data with a single CAS file where simulation settings are store
 
 ## Tutorials
 
-A guiding tutorial is available at https://www.youtube.com/watch?v=WA_9-2JYKdM. It demonstrates how to set up an Anaconda environment with relevant packages, as well as to develop a user app with processed CFD data in Unity. 
+A guiding tutorial is available at [YouTube - Acrossim tutorial]([https://github.com/sersolmaz/Acrossim](https://www.youtube.com/watch?v=WA_9-2JYKdM)).. It demonstrates how to set up an Anaconda environment with relevant packages, as well as to develop a user app with processed CFD data in Unity. 
 
 ## Outsourcing
 
