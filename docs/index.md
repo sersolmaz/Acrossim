@@ -1,7 +1,7 @@
 <!-- #Acrossim -->
 
 ```markdown
-Lastest update: 28.07.2023
+Latest update: 28.07.2023
 ```
 
 ## Introduction
