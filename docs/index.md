@@ -121,6 +121,8 @@ In order to post-process OpenFOAM data with ParaView on MS Windows, an empty “
 
 If other versions of ParaView and Blender are utilized in the Anaconda environment, some parts of modules should be updated based on changes in ParaView and Blender APIs. Please follow the given error and go line-by-line to identify what to change and rectify such as class names, objects, etc.
 
+Here is a solution to this problem that reported by a user: "pip install bpy==2.82 I used this in the yaml file and after installing it. We should go to the conda envs directory and take out the 2.82 folder from scripts folder and paste it in the folder containing the python.exe file. I found this from a forum. Object.select doesn't work. It should be updated to object.select_set and update the 'for' loop referencing object in bps.ops.scene. I also removed the reference to python-blender in the yaml file."
+
 **Processing multiple cutplanes in ParaView**
 
 Even though only one cutplane is processed in the tutorial, the toolkit is capable of processing multiple cutplanes simultaneously from a native CFD file in ParaView. No changes in the code are required.
